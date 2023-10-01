@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --white: #FFFFFF;
+    --ULCA-BLUE: #406E8E;
+    --pear: #c1DF1F;
+    --tea-green: #C9DCB3;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Roboto', serif;
+
+    --nav-background-colour:#406E8E ;
+    --nav-link-colour: #FFFFFF;
+    --nav-hover-link-colour:#FFFFFF;
+    --nav-hover-background-colour:#F;
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 800px;
+    padding: 20px;
+    max-width: 0 auto;
+}
+h1,h2 {
+    font-family: var(--heading-font);
+    color: var(--ULCA-BLUE);
+}
+p {
+    padding: 25px;
+} 
+
+
+
+.sociallinks a {
+    text-decoration: none;
+}
+.hero {
+    
+    position: relative;
+}
+.hero h1,
+.hero article {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+     
+}
+div img {
+    width: 0;
+    height: 0;
+}  
+ 
+ .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+.hero h1 {
+    position: absolute;
+    top: 100px;
+    right: 10px; 
+     
+ }
+ 
+p {
+   margin: 1rem;
+   
+}
+p {
+   padding: 0;
+   color: #000;
+}
+.hero article {
+    position: absolute;
+    top: 152px;
+    left: 10px;
+ }
+ 
+.hero article img {
+    float: right;
+    margin: 20px;
+    width: 150px;
+    
+}
+.box {
+    margin: 1rem;
+    border-top: 0px;
+    padding: 1rem;
+    background-color: rgba(135, 206, 235, 0.5);
+    color: #000;
+}
+
+.container {
+    margin: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    
+
+}
+
+footer {
+    padding: 0;
+}
