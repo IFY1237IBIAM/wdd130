@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 :root {
     --white: #FFFFFF;
     --ULCA-BLUE: #406E8E;
@@ -22,16 +21,88 @@ body {
     padding: 20px;
     max-width: 0 auto;
 }
+.header {
+    margin: 1rem auto;
+    display: grid;
+  grid-template-columns: 120px 1fr 2fr ;
+  align-items: center; 
+  border-bottom: 1px solid #ccc;
+  max-width: 1000px;
+
+}
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+    float: left;
+    
+}
+.logo img {
+    max-width: 100%;
+}
+nav {
+    text-align: right;
+    float: right;
+}
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    border: 10px; 
+  }
+
+
+.navigation li {
+    flex: 1 1 100%;
+  }
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: navy;
+    padding: 20px;
+  }
+
+.navigation a:hover {
+    color: #555;
+    font-weight: 700;
+    text-decoration: underline;
+  }   
 h1,h2 {
     font-family: var(--heading-font);
     color: var(--ULCA-BLUE);
+    
 }
 p {
     padding: 25px;
 } 
+.history-section {
+    padding: 20px;
+    
+}
+.centered-image {
+    display: block;
+    margin: 0 auto;    
+}
 
 
+  
+.adventures-section {
+    padding: 20px;
+}
 
+.history-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.adventures-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.adventures-images {
+    display: flex;
+}
+   
 .sociallinks a {
     text-decoration: none;
 }
@@ -100,6 +171,11 @@ p {
 
 }
 
-footer {
-    padding: 0;
+.footer { 
+    display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0; 
+   
 }
