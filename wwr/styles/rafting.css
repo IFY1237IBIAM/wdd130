@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 :root {
     --white: #FFFFFF;
     --ULCA-BLUE: #406E8E;
@@ -17,9 +16,10 @@
 }
 
 body {
-
+    font-family: var(--paragraph-font);
     max-width: 800px;
-    margin: 0 auto;
+    padding: 20px;
+    max-width: 0 auto;
 }
 .header {
     margin: 1rem auto;
@@ -99,10 +99,10 @@ p {
     font-weight: bold;
     margin-bottom: 10px;
 }
-/* .adventures-images {
+.adventures-images {
     display: flex;
 }
-    */
+   
 .sociallinks a {
     text-decoration: none;
 }
@@ -171,9 +171,11 @@ p {
 
 }
 
-footer { 
-    
+.footer { 
+    display: flex;
+  justify-content: flex-end;
   align-items: center;
-  
+  padding: 10px;
+  background-color: #f0f0f0; 
    
 }
