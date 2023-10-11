@@ -16,10 +16,9 @@
 }
 
 body {
-    font-family: var(--paragraph-font);
+
     max-width: 800px;
-    padding: 20px;
-    max-width: 0 auto;
+    margin: 0 auto;
 }
 .header {
     margin: 1rem auto;
@@ -99,10 +98,10 @@ p {
     font-weight: bold;
     margin-bottom: 10px;
 }
-.adventures-images {
+/* .adventures-images {
     display: flex;
 }
-   
+    */
 .sociallinks a {
     text-decoration: none;
 }
@@ -171,11 +170,9 @@ p {
 
 }
 
-.footer { 
-    display: flex;
-  justify-content: flex-end;
+footer { 
+    
   align-items: center;
-  padding: 10px;
-  background-color: #f0f0f0; 
+  
    
 }
