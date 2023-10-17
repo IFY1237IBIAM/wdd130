@@ -102,15 +102,15 @@ form {
     display: grid;
     position: relative;
 }
-fieldset {
+/* fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
-}
+} */
 legend {
-    padding: 0.5rem;
+    padding: 100px;
     color: black;
     font-size: 1.3em;
 }
