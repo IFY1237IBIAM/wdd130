@@ -21,51 +21,36 @@ body {
     font-size: 1.2rem;
     color: #333;
     background-color: #fff;
-    position: absolute;
     margin-top: 30px;
 }
 header {
+    display: grid;
+    
+  border-color:  #333;
+    
+}
+/* header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #f0f0f0;
 
-}
+} */
 .logo img {
     height: 100px;
     
 }
 .logo img {
     max-width: 200%;
+    float: left;
 }
-nav {
-    text-align: right;
-    float: right;
+.navigation{
+
+ display: flex;
+ float: right;
 }
-.navigation {
-    display: flex;
-    justify-content: flex-end;
-    border: 10px; 
-  }
-
-
-.navigation li {
-    flex: 1 1 100%;
-  }
-.navigation a {
-    display: block;
-    margin-left: 20px;
-    text-decoration: none;
-    color: navy;
-    padding: 20px;
-  }
-
-.navigation a:hover {
-    color: #555;
-    font-weight: 700;
-    text-decoration: underline;
-  }   
+  
 h1,h2 {
     font-family: var(--heading-font);
     color: black;
@@ -79,17 +64,41 @@ p {
 .sociallinks a {
     text-decoration: none;
 }
+.adventures-images {
+    display: flex;
+}
+.history-section {
+    display: flex;
+    padding-right: 10px;
+}
 
+.box {
+    width: 80%;
+     margin: 0 auto;  
+    padding: 20px;
+    border: 2px solid #333;
+    /* position: relative; */
+} 
+ .box img{
+    max-width: 10.5%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+    float: right; 
+    }
  
 p {
    margin: 1rem;
    
 }
+h2 img {
+    display: grid;
+}
 p {
    padding: 0;
    color: #000;
 }
-form {
+/* form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
@@ -106,7 +115,7 @@ form {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
 } */
-legend {
+/* legend {
     padding: 100px;
     color: black;
     font-size: 1.3em;
@@ -141,4 +150,4 @@ button {
 }
 button:hover {
     background-color: darkblue;
-}
+} */ 
