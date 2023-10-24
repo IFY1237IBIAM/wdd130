@@ -35,8 +35,8 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #f0f0f0;
-
 } */
+
 .logo img {
     height: 100px;
     
@@ -50,7 +50,59 @@ header {
  display: flex;
  float: right;
 }
-  
+.trip-discription {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+}
+.trip-discription img {
+    max-width: 200px;
+    margin-right: 20px;
+
+}
+.trip-details h2 {
+    font-size: 24px;
+}
+table {
+     border-collapse: collapse; 
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.grid-item img {
+    max-width: 100%;
+}
+
+.grid-item h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.grid-item p {
+    margin: 10px 0;
+}
+
 h1,h2 {
     font-family: var(--heading-font);
     color: black;
@@ -98,7 +150,7 @@ p {
    padding: 0;
    color: #000;
 }
-/* form {
+form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
@@ -106,16 +158,35 @@ p {
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
-    position: relative;
 }
-/* fieldset {
+fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
-} */
-/* legend {
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0070C0;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+footer h3 {
+    margin: 12px;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    position: relative;
+    width: 2000px;
+}
+legend {
     padding: 100px;
     color: black;
     font-size: 1.3em;
@@ -150,4 +221,4 @@ button {
 }
 button:hover {
     background-color: darkblue;
-} */ 
+}  
